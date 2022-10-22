@@ -1,6 +1,12 @@
+# ignore everything
 *
-!.gitattributes
-!.gitignore
-!readme.md
-!.gitkeep
-!*.cpp
+
+# unignore files with extension
+!*.*
+
+# un ignore dirs
+!*/
+
+# ignore files with .out extension
+*.out
+
